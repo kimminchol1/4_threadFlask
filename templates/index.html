@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>Chatting</head>
+<body>
+    <div style = "display: inline-block" class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <h3 class="mt-5">Live CCTV</h3>
+                <img src="{{ url_for('cctv') }}" width="70%">
+                <!-- <img src="{{ url_for('webcam') }}" width="70%"> -->
+            </div>
+        </div>
+    </div>
+    <div style = "display: inline-block" class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+                <h3 class="mt-5">Live Webcam</h3>
+                <!-- <img src="{{ url_for('cctv') }}" width="70%"> -->
+                <img src="{{ url_for('webcam') }}" width="70%">
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
